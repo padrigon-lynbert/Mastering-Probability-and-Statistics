@@ -26,7 +26,7 @@ def out(set1, set2):
 
 print(out({1,2,3,4}, {5,6,7,3,2}))
 
-# chal_1: write a function that takes a set and return a power set
+# chal_2: write a function that takes a set and return a power set
 
 def out2(set1, set2):
     ret = (set1 | set2) #UNION OPERATOR shortcut for "result=set1.union(set2)"

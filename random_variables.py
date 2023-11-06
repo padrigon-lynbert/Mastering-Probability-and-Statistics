@@ -74,22 +74,25 @@ plt.show()
 # ic(plt.hist(x, density=True, bins=30))
 # plt.show()
 
+# import random
+
+# x = list()
+# y = list()
+
 # for i in range(0,100,10):
-#     print(i)
+#     x.append(i)
+#     # y.append(random.choice([1,100]))
+#     y.append(random.randint(1,100))
     
-# Sample data for X and Y values
-x = [1, 2, 3, 4, 5]
-y = [10, 15, 13, 18, 12]
+# print(f"x: {x}\ny: {y}")
 
-# Create a line plot
-plt.plot(x, y)
+# plt.plot(x,y)
+    
+# plt.xlabel('X-axis')
+# plt.ylabel('Y-axis')
 
-# Add labels and a title
-plt.xlabel('X-axis Label')
-plt.ylabel('Y-axis Label')
-plt.title('Line Graph Example')
 
-# Display the plot
+
 plt.show()
 
 

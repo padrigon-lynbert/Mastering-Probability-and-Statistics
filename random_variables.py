@@ -64,14 +64,14 @@ plt.show()
 
 # plt.show()
 
-# import seaborn as sb
+import seaborn as sb
 # from icecream import ic
 
-# iris = sb.load_dataset('iris')
-# ic(iris)
+iris = sb.load_dataset('iris')
+# # ic(iris)
 
 # x = iris.sepal_length
-# ic(plt.hist(x, density=True, bins=30))
+# ic(plt.hist(x, density=True, bins=30))    
 # plt.show()
 
 # import random
@@ -91,9 +91,28 @@ plt.show()
 # plt.xlabel('X-axis')
 # plt.ylabel('Y-axis')
 
+# plt.show()
 
+# import matplotlib.pyplot as plt
+# import numpy as np
 
+# # Sample data
+# data = np.random.normal(0, 1, 1000)
+
+# # Non-normalized histogram
+# plt.subplot(1, 2, 1)
+# plt.hist(data, bins=30)
+# plt.title('Non-Normalized Histogram')
+
+# # Normalized histogram
+# plt.subplot(1, 2, 2)
+# plt.hist(data, density=True, bins=30)
+# plt.title('Normalized Histogram')
+
+sb.pairplot(iris, hue='species')
 plt.show()
+
+
 
 
 

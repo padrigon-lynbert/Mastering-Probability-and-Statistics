@@ -3,9 +3,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from disable_warning import dw
-dw()
-
 # iris = sns.load_dataset('iris')
 # print(iris.head())
 # print(iris.species.unique())

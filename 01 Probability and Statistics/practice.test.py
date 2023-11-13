@@ -1,5 +1,6 @@
 import numpy
-from disable_warning import dw
+
+from disable_warning.dw import dw
 
 A = set(numpy.arange(1,10,2)) 
 B = set(numpy.arange(0,10,2))
@@ -19,5 +20,3 @@ print(f"{A.difference(C)}")
 print("\nTest.")
 print(f"A:{A}, C: {C}")
 print(f"\nUnion: {A.union(C)}, Intersection: {A.intersection(C)}, Difference: {A.difference(C)}")
-
-dw()

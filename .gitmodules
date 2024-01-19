@@ -1,3 +1,6 @@
 [submodule "NumPy_for_machine_learning-2023"]
 	path = NumPy_for_machine_learning-2023
 	url = https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023.git
+[submodule "Pandas-2024"]
+	path = Pandas-2024
+	url = https://github.com/padrigon-lynbert/Pandas-2024.git

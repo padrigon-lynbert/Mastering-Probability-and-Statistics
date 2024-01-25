@@ -3,5 +3,6 @@
 
 This repo is a sandbox for experimentation and practice, mostly for data manipulation that is related on predicting something based on data history.
 
-01: https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023
-02: https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023
+01: https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023 <br>
+02: https://github.com/padrigon-lynbert/Pandas-2024 <br>
+03: https://github.com/padrigon-lynbert/Matplotlib-2024

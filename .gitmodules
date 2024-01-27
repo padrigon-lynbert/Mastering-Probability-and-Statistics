@@ -7,3 +7,12 @@
 [submodule "Matplotlib-2024"]
 	path = Matplotlib-2024
 	url = https://github.com/padrigon-lynbert/Matplotlib-2024.git
+[submodule "01 First core libraries/Matplotlib-2024"]
+	path = 01 First core libraries/Matplotlib-2024
+	url = https://github.com/padrigon-lynbert/Matplotlib-2024.git
+[submodule "01 First core libraries/Pandas-2024"]
+	path = 01 First core libraries/Pandas-2024
+	url = https://github.com/padrigon-lynbert/Pandas-2024.git
+[submodule "01 First core libraries/NumPy_for_machine_learning-2023"]
+	path = 01 First core libraries/NumPy_for_machine_learning-2023
+	url = https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023.git

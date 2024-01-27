@@ -4,3 +4,6 @@
 [submodule "Pandas-2024"]
 	path = Pandas-2024
 	url = https://github.com/padrigon-lynbert/Pandas-2024.git
+[submodule "Matplotlib-2024"]
+	path = Matplotlib-2024
+	url = https://github.com/padrigon-lynbert/Matplotlib-2024.git

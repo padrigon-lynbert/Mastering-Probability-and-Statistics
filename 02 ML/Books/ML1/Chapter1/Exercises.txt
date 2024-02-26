@@ -49,17 +49,26 @@ Hyperparam: Configurations that is already learned by the model and is set by wh
 Nonrepresentative training data,
 Poor-quality data,
 Irrelevant features,
-Overfitting the training data.
+Insufficient quantity of training data.
 
 15. If your model performs great on the training data but generalize poorly to new instances, what is happening?    
 I am overfitting the training data.
+
     Can you name three possible solutions?
     Simplify the model with fewer parameneters,
     Gather more trainig data,
     Reduce noise in the training data.
 
-    What is a test set and why would you want to use it?
 16. What is a test set and why would you want to use it?
+A part of the whole data set that is set aside for testing purposes, will be used so the data will be trained on
+    how it will treat real-world data
+
 17. What is the purpose of a validation set?
+A part of the test set that is chosen best for the purpose of testing.
+
 18. What could go wrong if you tune the hyperparameter using the test set?
+It is hard to know if the test set will be okay to use, it might be too large or small.
+
 19. What is repeated cross-validation and why sould you prefer it to using a single validation set?
+Using multiple validation sets,
+By averaging all test result of the validation sets, the model can aget a more precise prediction.

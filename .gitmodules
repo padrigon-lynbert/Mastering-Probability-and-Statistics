@@ -16,3 +16,6 @@
 [submodule "01 First core libraries/NumPy_for_machine_learning-2023"]
 	path = 01 First core libraries/NumPy_for_machine_learning-2023
 	url = https://github.com/padrigon-lynbert/NumPy_for_machine_learning-2023.git
+[submodule "learn-sql"]
+	path = learn-sql
+	url = https://github.com/padrigon-lynbert/learn-sql.git
